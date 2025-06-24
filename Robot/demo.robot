@@ -14,7 +14,7 @@ ${id_index}    //select[@id="dropdown-class-example"]
 
 # test1
 #     Open Browser    ${url}    ${browser}
-#     Maximize Browser Window
+#     Maximize Browser Window.
 
 # userinput&password
 #     [Tags]    Sanity
