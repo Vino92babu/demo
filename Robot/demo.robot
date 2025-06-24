@@ -16,14 +16,14 @@ ${id_index}    //select[@id="dropdown-class-example"]
 #     Open Browser    ${url}    ${browser}
 #     Maximize Browser Window.
 
-# userinput&password
-#     [Tags]    Sanity
-#     Open Browser    ${url}    ${browser}
-#     Maximize Browser Window
-#     Sleep    2s
-#     Input Text    //input[@name="username"]    "Admin"
-#     Input Password    //input[@name="password"]    "admin123"
-#     Click Button    //button[@type="submit"]
+userinput&password
+    [Tags]    Sanity
+    Open Browser    ${url}    ${browser}
+    Maximize Browser Window
+    Sleep    2s
+    Input Text    //input[@name="username"]    "Admin"
+    Input Password    //input[@name="password"]    "admin123"
+    Click Button    //button[@type="submit"]
 
 # dropdown
 #     [Tags]    Smoke
